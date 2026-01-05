@@ -14,9 +14,9 @@ const Features = () => {
       description: 'Эффективный заработок игровой валюты для продажи'
     },
     {
-      icon: 'Radar',
-      title: 'Wallhack & Radar',
-      description: 'Видение сквозь стены и радар для полного контроля'
+      icon: 'Handshake',
+      title: 'Скупщики валюты',
+      description: 'Возможность продать валюту скупщикам в приватном чате'
     },
     {
       icon: 'Gem',

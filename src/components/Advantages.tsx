@@ -25,8 +25,8 @@ const Advantages = () => {
     },
     {
       icon: 'Shield',
-      title: 'Минимальный риск',
-      description: 'Оптимизированные настройки для снижения вероятности обнаружения античитом.'
+      title: 'Баны умеренные',
+      description: 'Чит детект, окупаемость за пару дней. Оптимизированные настройки для заработка валюты.'
     },
     {
       icon: 'Clock',
@@ -76,11 +76,11 @@ const Advantages = () => {
               Присоединяйся к сообществу профессионалов
             </h3>
             <p className="text-gray-300 mb-6">
-              Более 500+ активных пользователей уже зарабатывают с Resolver. Получи доступ к эксклюзивным стратегиям и проверенным скупщикам.
+              Более 50+ активных пользователей уже зарабатывают с Resolver. Получи доступ к эксклюзивным стратегиям и проверенным скупщикам.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <div className="bg-black/30 px-6 py-3 rounded-lg">
-                <p className="text-red-500 font-bold text-2xl">500+</p>
+                <p className="text-red-500 font-bold text-2xl">50+</p>
                 <p className="text-gray-400 text-sm">Активных пользователей</p>
               </div>
               <div className="bg-black/30 px-6 py-3 rounded-lg">

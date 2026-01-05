@@ -65,7 +65,7 @@ const Hero = () => {
           </div>
           <div className="bg-card/50 backdrop-blur-sm border border-red-900/30 rounded-lg p-4 border-glow-red">
             <Icon name="Shield" size={32} className="text-red-500 mx-auto mb-2" />
-            <p className="text-sm text-gray-400">Защита от бана</p>
+            <p className="text-sm text-gray-400">Баны умеренные</p>
           </div>
         </div>
       </div>

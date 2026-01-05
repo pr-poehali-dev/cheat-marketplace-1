@@ -5,50 +5,37 @@ import Icon from '@/components/ui/icon';
 const Pricing = () => {
   const plans = [
     {
-      name: '1 День',
-      price: '150₽',
-      period: 'день',
+      name: '7 Дней',
+      price: '500₽',
+      period: 'неделя',
       features: [
         'Все функции чита',
-        'Aim + ESP + Wallhack',
+        'AimBot + ESP',
+        'Просветы артефактов',
         'Фарм валюты',
-        'Доступ в чат',
+        'Доступ в приватный чат',
+        'Стратегии продажи',
+        'Свои скупщики',
         'Обновления 24/7'
       ],
       popular: false
     },
     {
-      name: '7 Дней',
-      price: '700₽',
-      period: 'неделя',
-      features: [
-        'Все функции чита',
-        'Aim + ESP + Wallhack',
-        'Фарм валюты',
-        'Доступ в приватный чат',
-        'Стратегии продажи',
-        'Свои скупщики',
-        'Обновления 24/7',
-        'Приоритетная поддержка'
-      ],
-      popular: true
-    },
-    {
       name: '30 Дней',
-      price: '2500₽',
+      price: '1000₽',
       period: 'месяц',
       features: [
         'Все функции чита',
-        'Aim + ESP + Wallhack',
+        'AimBot + ESP',
+        'Просветы артефактов',
         'Фарм валюты',
-        'VIP доступ в чат',
-        'Эксклюзивные стратегии',
+        'VIP доступ в приватный чат',
+        'Эксклюзивные стратегии продажи',
         'Прямые скупщики',
         'Обновления 24/7',
-        'VIP поддержка',
-        'Бонусные гайды'
+        'VIP поддержка'
       ],
-      popular: false
+      popular: true
     }
   ];
 
@@ -64,7 +51,7 @@ const Pricing = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {plans.map((plan, index) => (
             <Card
               key={index}

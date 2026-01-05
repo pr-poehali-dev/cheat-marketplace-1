@@ -5,7 +5,7 @@ import Icon from '@/components/ui/icon';
 const Contact = () => {
   return (
     <section id="contact" className="py-20 px-4 bg-gradient-to-b from-black to-red-950/20">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-5xl md:text-6xl font-bold text-white mb-4 text-glow-red">
             Контакты
@@ -15,14 +15,14 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <Card className="bg-card/80 backdrop-blur-sm border-red-900/30 p-8 hover:border-red-600/50 transition-all hover:box-glow-red group">
             <div className="text-center">
               <div className="mb-4 p-4 bg-red-950/30 rounded-lg w-fit mx-auto group-hover:bg-red-900/40 transition-colors">
-                <Icon name="MessageCircle" size={48} className="text-red-500" />
+                <Icon name="Send" size={48} className="text-red-500" />
               </div>
-              <h3 className="text-2xl font-bold text-white mb-2">Telegram Бот</h3>
-              <p className="text-gray-400 mb-4">Техподдержка и вопросы</p>
+              <h3 className="text-2xl font-bold text-white mb-2">Telegram Канал</h3>
+              <p className="text-gray-400 mb-4">Новости и обновления</p>
               <Button
                 className="bg-red-600 hover:bg-red-700 text-white font-bold"
                 onClick={() => window.open('https://t.me/resolverhack', '_blank')}
@@ -44,6 +44,22 @@ const Contact = () => {
                 onClick={() => window.open('https://t.me/funnymindset', '_blank')}
               >
                 @funnymindset
+              </Button>
+            </div>
+          </Card>
+
+          <Card className="bg-card/80 backdrop-blur-sm border-red-900/30 p-8 hover:border-red-600/50 transition-all hover:box-glow-red group">
+            <div className="text-center">
+              <div className="mb-4 p-4 bg-red-950/30 rounded-lg w-fit mx-auto group-hover:bg-red-900/40 transition-colors">
+                <Icon name="Globe" size={48} className="text-red-500" />
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-2">Форум</h3>
+              <p className="text-gray-400 mb-4">Обсуждения и общение</p>
+              <Button
+                className="bg-red-600 hover:bg-red-700 text-white font-bold"
+                onClick={() => window.open('https://resolverfoundhitbox.ru', '_blank')}
+              >
+                Перейти
               </Button>
             </div>
           </Card>
